@@ -31,18 +31,18 @@
         android:layout_width="match_parent"
         android:layout_height="44dp"
         android:layout_above="@+id/findRestaurantsButton"
-        android:layout_marginBottom="-3dp"
+        android:layout_marginBottom="-6dp"
         android:background="@color/colorTextIcons"
         android:hint="Enter Zip Code" />
 
     <Button
+        android:id="@+id/findRestaurantsButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Find Restaurants"
-        android:id="@+id/findRestaurantsButton"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-9dp"
         android:background="@color/colorAccent"
+        android:text="Find Restaurants"
         android:textColor="@color/colorTextIcons" />
 
 </RelativeLayout>
