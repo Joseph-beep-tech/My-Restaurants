@@ -6,19 +6,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.moringaschool.myrestaurants.adapters.RestaurantListAdapter;
 import com.moringaschool.myrestaurants.models.Business;
-import com.moringaschool.myrestaurants.models.Category;
 import com.moringaschool.myrestaurants.models.YelpBusinessesSearchResponse;
+import com.moringaschool.myrestaurants.network.YelpApi;
+import com.moringaschool.myrestaurants.network.YelpClient;
 
 import java.util.List;
 

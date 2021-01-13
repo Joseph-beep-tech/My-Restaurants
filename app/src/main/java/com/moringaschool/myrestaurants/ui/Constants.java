@@ -1,4 +1,4 @@
-package com.moringaschool.myrestaurants;
+package com.moringaschool.myrestaurants.ui;
 
 
 

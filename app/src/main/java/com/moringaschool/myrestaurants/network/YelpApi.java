@@ -1,4 +1,4 @@
-package com.moringaschool.myrestaurants;
+package com.moringaschool.myrestaurants.network;
 
 import com.moringaschool.myrestaurants.models.YelpBusinessesSearchResponse;
 
